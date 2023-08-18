@@ -1,0 +1,166 @@
+{
+  margin 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(195, 213, 245);
+  line-height: 1.5;
+}
+
+.image-container {
+  background-color: #f2f2f2; 
+  padding: 20px; 
+  border-radius: 5px;
+}
+
+.container {
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  max-width: 600px;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+@keyframes animatedBackground {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; 
+  margin-bottom: 20px;
+}
+
+form input[type="text"] {
+  padding: 10px;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  width: 60%;
+}
+
+form input[type="submit"] {
+  background-color: blue; 
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+  background-color: gray;
+}
+
+.icon img {
+  width: 100px;
+  height: 100px;
+  background-size:transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.temperature {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.description {
+  font-size: 28px;
+  margin-bottom: 22px;
+}
+
+.details {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.details > div {
+  padding: 20px;
+  background-color: cornflowerblue;
+  margin: 10px;
+  flex: 1;
+  border-radius: 5px;
+  text-align: center;
+  min-height: 45px;
+}
+
+@media (max-width: 768px) {
+  form {
+    flex-direction: column;
+  }
+  form input[type="text"] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+
+#hourly-forecast {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.hourly-forecast-item {
+  flex
+}
+
+.weather-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.current-weather {
+  background-color: blueviolet;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.hourly-forecast {
+  background-color:rgb(141, 130, 238);
+  padding: 20px;
+}
+
+.hourly-forecast {
+  margin-top: 30px;
+}
+
+.hourly-forecast h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.forecast-items {
+  display: flexbox ;
+}
+.sunrise-sunset {
+   background-color: rgb(207, 207, 224); 
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease; 
+}
+
+
